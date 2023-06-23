@@ -1,6 +1,6 @@
 // import { async } from 'regenerator-runtime';
 // import { doc } from 'firebase/firestore/lite';
-
+import img from './img/logo-title33.png';
 import {
   deleteDocument,
   eventsCollection, fetchPost, onSnapshot,
@@ -29,7 +29,7 @@ function wall(navigateTo) {
   ctnPost.setAttribute('id', 'post');
   btnPost.setAttribute('id', 'btnPost');
 
-  imgHeader.src = './img/logo-title33.png';
+  imgHeader.src = img;
   imgHeader.alt = 'header-logo';
   ctnHeader.appendChild(imgHeader);
 

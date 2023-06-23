@@ -1,3 +1,5 @@
+import searchImg from './img/search.png';
+import logoImg from './img/logo.png';
 import {
   signIn,
   loginGoogle,
@@ -30,10 +32,10 @@ function home(navigateTo) {
   inputPassword.setAttribute('type', 'password');
   imgGoogle.setAttribute('id', 'imgG-style');
   logo.setAttribute('id', 'logo-style');
-  logo.src = './img/logo.png';
+  logo.src = logoImg;
   logo.alt = 'web-logo';
   ctnImage.appendChild(logo);
-  imgGoogle.src = './img/search.png';
+  imgGoogle.src = searchImg;
   imgGoogle.alt = 'goo-logo';
   buttonGoogle.appendChild(imgGoogle);
 
